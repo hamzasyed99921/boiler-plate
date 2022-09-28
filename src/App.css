@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+body{
+    background-color: #e8e7e6 !important ;
+}
+.container {
+	width: 1000px !important;
+	margin: 0 auto;
+}
+.main{
+    margin-top: 90px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sec_section{
+    position: relative;
+    margin-top: 90px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.third_section{
+    margin-top: 90px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo{
+    width: 60%;
+}
+.logo img{
+    border-radius: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.logo_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ..left_btn a{
+
+} */
+.logo_2 img{
+    width: 150px;
+    border-radius: 50%;
 }
+
+.hero_text{
+    margin-top: 35px;
+    font-size: 32px;
+    line-height: calc(3px + 2ex + 3px);
+    font-weight: 500;
+    font-family: Averta-Regular,sans-serif;
+}
+
+.left_heading h2{
+    font-family: Averta-Extra-Bold,sans-serif;
+    font-weight: 900;
+}
+
+.rounded_icons{
+    display: flex;
+    margin-top: 40px;
+}
+
+.card_1{
+    background-color: #e13956;
+    border-radius: 6px;
+}
+
+.card_1 a{
+    
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+
